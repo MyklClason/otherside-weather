@@ -4,6 +4,7 @@ This app is intended to display weather from the otherside of the world.
 
 Todo:
 
+ - Add metric_fu
  - Add coverage testing
  - Add travis-ci
 
