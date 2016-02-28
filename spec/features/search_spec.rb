@@ -23,21 +23,16 @@ RSpec.feature "Otherside weather search" do
     expect(page).to have_content("Weather on the otherside of #{query}")
     #expect(page).to have_content("Coodinates: ")
     
-    # Expct Weather conditions:
+    # Expect Weather conditions:
     # -Temp
     # -Wind (speed/direction)
     # -Coordinates
     # -weather
     
-    # City name to   GPS   lookup: http://www.geonames.org/export/web-services.html#findNearbyPlaceName
-    #    GPS    to  city   lookup: http://www.geonames.org/export/web-services.html#findNearbyPlaceName
-    #    GPS    to weather lookup: http://openweathermap.org/current#geo
-    #     ''       station lookup: http://www.geonames.org/export/JSON-webservices.html#findNearByWeatherJSON
-    # Going to need to do bidirectional fraction to DMS convertion
-    
-    #SearchHTML: <%=http://api.geonames.org/search?name=la%20crosse&featureCode=PPL&maxRows=10&username=ENV["GEONAME"] %>
+
     
     # Expect distance to exact opposite (based on expected GPS coodinates)
+    
   end
 
   scenario "Search is unsuccessful, display errors" do
