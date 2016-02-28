@@ -1,14 +1,15 @@
 
-This app is intended to display weather from the otherside of the world.
+This app is intended to display weather from the otherside of the world of the given location.
 
 
 Todo:
 
-    - Gems to Add: 
+    - Gems: 
         - Add metric_fu
         - Add rubycritic
         - Add coverage testing
         - Add travis-ci
+        - Add better-errors
 
 
     - Resource Notes:
