@@ -6,8 +6,6 @@ RSpec.feature "Otherside weather search" do
   before do
   end
   
-  
-
   scenario "check page layout" do
     visit "/"
     expect(page).to have_field("Search") # Search field
@@ -28,8 +26,6 @@ RSpec.feature "Otherside weather search" do
     # -Wind (speed/direction)
     # -Coordinates
     # -weather
-    
-
     
     # Expect distance to exact opposite (based on expected GPS coodinates)
     
